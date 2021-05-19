@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.skiptranslate .goog-te-banner-frame.skiptranslate{
+  display: none !important;
+  /* visibility: hidden !important */
+}
+
+#google_translate_element{
+  position:absolute !important;
+  right:10px !important;
+  top:5px !important
+}
+.goog-te-combo{
+  font-size: 15px !important;
+  height:auto;
+  padding:5px 0;
+  background-color: rgba(78, 15, 15, 0.973);
+  color: white;
+}
